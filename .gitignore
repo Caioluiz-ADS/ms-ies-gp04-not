@@ -1,12 +1,58 @@
-target/
+# Compiled class file
 *.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
 *.jar
 *.war
+*.nar
 *.ear
-.idea/
-*.iml
-.vscode/
-.settings/
-.classpath
-.project
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs
+hs_err_pid*
+replay.log
+
+# Spring Boot #
+target/
 .DS_Store
+HELP.md
+
+# STS #
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA #
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans #
+/nbproject/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code #
+.vscode/
+
+# misc
+!**/src/main/**/target/
+!**/src/test/**/build/
